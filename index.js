@@ -26,7 +26,7 @@ const listBelanjaan = (dataBelanjaan) => {
   for (let i = 0; i < dataBelanjaan.length; i++) {
     barang[i] = `- ${dataBelanjaan[i].nama} x ${dataBelanjaan[i].kuantitas}`;
   }
-  return barang;
+  return barang} ;
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 const totalBelanjaan = (dataBelanjaan) => {
@@ -34,7 +34,7 @@ const totalBelanjaan = (dataBelanjaan) => {
   for (let i = 0; i < dataBelanjaan.length; i++) {
     totalBayar += dataBelanjaan[i].kuantitas * dataBelanjaan[i].harga;
   }
-  return totalBayar;
+  return totalBayar};
 
 // ! JANGAN DIMODIFIKASI
 const main = () => {
